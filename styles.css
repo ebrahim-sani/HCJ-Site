@@ -273,7 +273,7 @@
   flex-direction: row;
   align-items: center;
   padding-top: 20px;
-  margin: 20px;
+  margin: 25px;
 }
 
 .services_img {
@@ -363,7 +363,7 @@
   margin-bottom: 100px;
 }
 
-.aboutPage_heading {
+.component_heading {
   display: flex;
   padding-top: 30px;
   justify-content: center;
@@ -443,3 +443,50 @@
 }
 
 /* <!---- Testimonial Section ----> */
+
+.testimonial_content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  background-color: rgb(235, 229, 229);
+  padding: 10px;
+  border-radius: 40px;
+}
+
+.avatar {
+  display: flex;
+  max-width: 150px;
+  justify-content: center;
+}
+
+img {
+  border-radius: 50%;
+  margin: 15px;
+}
+
+.testimonial__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 70px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.person_name {
+  display: flex;
+  justify-content: center;
+  font-style: oblique;
+}
+
+/* <!---- Contact Section ----> */
